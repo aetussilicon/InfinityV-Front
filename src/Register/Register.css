@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&display=swap");
+
+body {
+  background: linear-gradient(45deg, #32082a, #9a057e);
+  overflow: hidden;
+}
+
+img {
+    width: 80px;
+    height: auto;
+  }
+
+.register-area {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b0012;
+  width: 335px;
+  height: 535px;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+label {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin-top: 10px;
+  background-color: #32082a;
+  color: #cbd0f7;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 45px;
+  border-radius: 8px;
+}
+
+form [type="submit"] {
+  display: block;
+  background-color: #752174;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  color: #cbd0f7;
+}
+
+Link {
+  color: #752174;
+  text-decoration: none;
+  margin-left: 10px;
+}
