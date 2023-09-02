@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&display=swap");
 
-body {
-  background: linear-gradient(45deg, #32082a, #9a057e);
-  overflow: hidden;
-}
-
 img {
     width: 80px;
     height: auto;
@@ -69,4 +64,8 @@ Link {
   color: #752174;
   text-decoration: none;
   margin-left: 10px;
+}
+
+span {
+  color: red;
 }
