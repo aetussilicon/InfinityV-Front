@@ -1,0 +1,156 @@
+header{
+    margin: 2%;
+    height: 72px;
+    background-color: #D8C1EB;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px #9356C8;
+}
+
+#logo {
+    height: 75px;
+    cursor: pointer;
+}
+
+
+#cabecalhoNav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalhoNav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+#cabecalhoNav ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#cabecalhoNav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #7F3CB9;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+#cabecalhoNav ul li:hover::after{
+    width: 100%;
+}
+
+.cabecalhoNavButtonsLogin {
+   border: none;
+   background-color: #7F3CB9; 
+   color: #D8C1EB;
+   cursor: pointer;
+   border-radius: 15.2px;
+   font-size: 21px;
+   text-transform: capitalize;
+   min-height: 43.32px;
+   min-width: 179.06px;
+}
+
+#inicioSec {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+    align-items: center;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    height: 320px;
+    padding: 5%;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 60px #000000;
+}
+
+.inicioSecItroducao{
+    display: flex;
+    flex-direction: row;
+}
+
+#mainPage {
+    height: 800px;
+    padding-right: 6%;
+
+}
+
+.inicioSecItroducaoText {
+    padding-top: 16%;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicioSecItroducaoTextTitle {
+    margin-left: 47px;
+    width: 70%;
+    font-size: 50px;
+    background-image: linear-gradient(120deg, #2d00f7, #f20089);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.inicioSecParagraph {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#caracSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 15%;
+}
+
+.SecTitle {
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    background-color: #D8C1EB;
+    font-weight: 300;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 20px;
+    color: #000000;
+
+}
+
+
+.cards {
+    margin: 2%;
+    display: flex;
+    gap: 80px;
+}
+
+#FutureFeatureSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 4%;
+}
+
+.FutureFeatureSecCards {
+    margin-bottom: 5%;
+}

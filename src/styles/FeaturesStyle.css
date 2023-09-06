@@ -1,0 +1,11 @@
+.FeaturesCard {
+    margin: 5%;
+    height: 350px;
+    border-radius: 45px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+img {
+    height: 10px;
+}

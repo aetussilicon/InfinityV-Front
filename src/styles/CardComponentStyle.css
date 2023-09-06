@@ -1,0 +1,65 @@
+.caracSecCards {
+  width: 380px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #f8fbfe;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.circle {
+  padding: 0 8px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+.card_content{
+    padding-top: 2%;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+p {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    font-size: 26px;
+    font-weight: 400;
+    
+}
+
+img {
+  height: 80px;
+}
